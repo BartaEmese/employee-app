@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "06c7df4f-8861-4ce4-95a0-9e23c4dfbbf3",
+		"name": "employee collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Employees",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8888/employees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
